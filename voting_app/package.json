@@ -1,0 +1,23 @@
+{
+  "name": "voting_app",
+  "version": "1.0.0",
+  "description": "Write contract at [Remix](http://remix.ethereum.org/) and deploy it to localhost:7545 (ganache)",
+  "main": "index.js",
+  "dependencies": {
+    "solc": "^0.4.23",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "@types/web3": "^1.0.14",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "deploy": "ts-node deploy.ts",
+    "contract": "ts-node contract.ts",
+    "ui": "serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
