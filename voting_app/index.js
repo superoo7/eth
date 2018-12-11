@@ -5,7 +5,7 @@ const abi = JSON.parse(
 // CHANGE
 const address = "0x1A48226a2b104d2956D7Fba571D78D4b5472fd06";
 // CHANGE
-const Owner = '0xe4a33bADcF434275D016370b6fBb415cD42969D5'
+const Owner = "0xe4a33bADcF434275D016370b6fBb415cD42969D5";
 
 const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
 const VotingContract = new web3.eth.Contract(abi, address);
