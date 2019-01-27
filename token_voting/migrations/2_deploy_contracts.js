@@ -1,5 +1,4 @@
-var DB = artifacts.require("./DB.sol");
-
-module.exports = function (deployer) {
-  deployer.deploy(DB);
+var Voting = artifacts.require("./Voting.sol");
+module.exports = function(deployer) {
+ deployer.deploy(Voting, ['Rama', 'Nick', 'Jose']);
 };
